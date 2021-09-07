@@ -1,0 +1,7 @@
+.perk-container {
+    width:100%;
+    display:inline;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5rem;
+}

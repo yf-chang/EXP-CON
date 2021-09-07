@@ -1,0 +1,104 @@
+.navbar {
+    background-color: transparent;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+    color: white;
+}
+
+.menu-close {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    width: 500px;
+}
+
+.close-button {
+    background-color: white;
+}
+
+.close-button:hover {
+    font-size: 46px;
+}
+
+.nav-menu {
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    z-index:100;
+}
+
+.nav-menu.active {
+    background-color: white;
+    left: 0;
+    transition: 350ms;
+    z-index:100;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 30px;
+    list-style: none;
+    height: 60px;
+    background: white;
+  }
+  
+.nav-text a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+  background: white;
+}
+
+.nav-text a:hover {
+    font-size: 30px;
+}
+
+.nav-menu-items {
+  width: 100%;
+  background: white;
+}
+
+.navbar-toggle {
+  background: white;
+  width: 90%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+
+.logo {
+    justify-content: start;
+    align-items: center;
+    padding: 6px 0px 6px 30px;
+}
+
+.logo-text {
+    text-decoration: none;
+    color: white;
+    font-size: 46px;
+}

@@ -1,0 +1,92 @@
+.title {
+  position: absolute;
+  top: 20%;
+  left:350px;
+  color: white;
+  z-index: 10;
+  user-select: none;
+  background: transparent;
+}
+
+.text {
+  position: absolute;
+  top: 40%;
+  left:180px;
+  color: white;
+  z-index: 10;
+  user-select: none;
+  background: transparent;
+}
+
+.right-arrow{
+  position: absolute;
+  top: 40%;
+  right: 40px;
+  font-size: 3rem;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  background: transparent;
+  opacity: 0.5;
+}
+
+.left-arrow{
+  position: absolute;
+  top: 40%;
+  left: 40px;
+  font-size: 3rem;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  background: transparent;
+  opacity: 0.5;
+}
+
+.slides{
+  position:relative;
+  margin-top: 2rem;
+  display:flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient-overlay {
+    position: relative;
+}
+
+.gradient-overlay::after {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image: linear-gradient(to bottom, black, transparent);
+}
+
+img{
+  height: 600px;
+  width:100%;
+}
+
+.slide{
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+  
+.slide.active{
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1); 
+}
+
+.btn-container {
+  position: absolute;
+  top: 50%;
+  left:38%;
+  z-index: 10;
+  background: transparent;
+}
+

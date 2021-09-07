@@ -1,0 +1,122 @@
+label {
+    color: white;
+    font-size: 12px;
+    display:block;
+}
+
+.container {
+ 
+    padding: 25px 30px;
+}
+
+.container h1 {
+    position:relative;
+}
+
+.container h1::before {
+    content:'';
+    position: absolute;
+    left:0;
+    bottom:0;
+    height: 3px;
+    width: 30px;
+}
+
+.user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 20px 0 12px 0;
+    width:100%
+}
+
+.user-details p {
+    display: inline-block;
+}
+
+.grid{
+    width: 50%;
+}
+
+.inputs{
+    margin: 20px 60px;
+}
+
+.inputs .input-box input, select{
+    margin-bottom: 15px;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    padding-left: 15px;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+    color:white;
+}
+
+
+input[type=text]:focus{
+    border-bottom: 3px solid rgba(0, 174, 255, 0.808);    
+}
+
+.plan input label{
+    display: flex;
+    justify-content: center;
+    margin:20px 0 12px 0;
+}
+
+form .plan-details {
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 1000px;
+}
+form .category{
+  display: flex;
+  width: 80%;
+  margin: 15px 70px ;
+  justify-content: space-between;
+}
+form .category label{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+form .category label .dot{
+ height: 18px;
+ width: 18px;
+ border-radius: 50%;
+ margin-right: 10px;
+ background: #d9d9d9;
+ border: 5px solid transparent;
+ transition: all 0.3s ease;
+}
+
+form .one {
+    font-size: 20px;
+    color: rgb(235, 100, 66);
+}
+
+form .two {
+    font-size: 20px;
+    color:rgb(240, 165, 52);
+}
+
+form .three {
+    font-size: 20px;
+    color:rgb(66, 235, 235);
+}
+
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three{
+  background:black;
+  border-color: #d9d9d9;
+}
+
+form input[type="radio"]{
+  display: none;
+}
+
+a {
+    color:rgba(0, 132, 255, 0.589);
+}

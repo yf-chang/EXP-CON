@@ -1,0 +1,111 @@
+h3 {
+    font-size: 100px;
+    margin-top: 10px;
+}
+
+h1 {
+    color:white;
+    margin: 2rem 3rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+p {
+    color: white;
+    margin: 0rem 3rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 30px;
+}
+
+li {
+    color: white;
+    margin:5px;
+    font-size: 30px;
+}
+
+.background-1 {
+    background:rgb(235, 100, 66);
+}
+
+.background-2 {
+    background:rgb(240, 165, 52);
+}
+
+.background-3 {
+    background:rgb(66, 235, 235);
+}
+
+.grid-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.line {
+    width: 80px;
+    height:3px;
+}
+
+
+.grid-item-1 {
+    width:200px;
+    margin:10px;
+    color: rgb(235, 100, 66);
+    min-height: 500px;
+}
+
+.grid-item-2 {
+    width:200px;
+    margin:10px;
+    color: rgb(240, 165, 52);
+    min-height: 500px;
+}
+
+.grid-item-3 {
+    width:200px;
+    margin:10px;
+    color: rgb(66, 235, 235);
+    min-height: 500px;
+}
+
+.button {
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 1em 2em;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+    width:200px;
+}
+.button span {
+    position: relative;
+    pointer-events: none;
+    background:transparent;
+}
+.button::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #4605f7b6, transparent);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+}
+.button:hover::before {
+    --size: 400px;
+}
+

@@ -1,0 +1,98 @@
+/* Button */
+.container {
+    background: transparent;
+}
+  .link {
+    background:transparent;
+  }
+  
+  .btn {
+    outline:0;
+    border:none;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 50px;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 4px;
+    overflow: hidden;
+    position: relative; 
+    padding: 2em 3em;
+    margin: 4em;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all 500ms ease-in-out;
+    color:white;
+    background:transparent;
+    z-index: 20;
+  }
+  
+  
+  .btn::before {
+    content: "";
+    position: absolute;
+    background: transparent;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 1em 2em 3em rgba(255, 50, 0, 0.5),
+                4em 0em 2em 2em rgba(155, 50, 0, 0.6),
+                -4em -2em 2em 2em rgba(255, 0, 150, 0.5),
+                -4em 2em 2em 4em rgba(0, 0, 150, 0.5),
+                0 -3em 2em 3em rgba(120, 250, 0, 0.5),
+                2em -1em 2em 2em rgba(50, 10, 200, 0.5);
+    width: 0;
+    height: 0;
+    animation: mix 5s linear infinite;
+    z-index: -1;
+  }
+  
+  .btn-::after {
+    content: "";
+    position: absolute;
+    border-radius: 120px;
+    color: #fff;
+    padding: 1.6em 2.5em;
+    top: 0.4em;
+    left: 0.5em;
+    -moz-user-select: none;
+    user-select: none;
+   
+  }
+  
+  .btn:hover {
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  .btn:focus {
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  
+  
+  @keyframes mix {
+    30% {
+      box-shadow: 0 -1em 2em 3em rgba(255, 0, 200, 0.5),
+                  4em -1em 2em 3em rgba(255, 50, 0, 0.8),
+                  -4em 2em 3em 2em rgba(155, 200, 0, 0.5),
+                  -4em -2em 2em 2em rgba(200, 0, 150, 0.6),
+                  0 3em 2em 2em rgba(20, 250, 0, 0.5),
+                  2em 1em 2em 2em rgba(50, 10, 250, 0.5);
+    }
+    
+    60% {
+      box-shadow: 2em 1em 2em 3em rgba(55, 0, 200, 0.5),
+                  3em 1em 2em 3em rgba(25, 150, 0, 0.6),
+                  3em -2em 3em 3em rgba(155, 200, 0, 0.5),
+                  -4em 2em 2em 3em rgba(200, 0, 50, 0.6),
+                  0 -3em 2em 3em rgba(200, 250, 0, 0.5),
+                  -2em 1em 2em 3em rgba(50, 210, 250, 0.6);
+    }
+  
+  }
+  
+  
+  
+  

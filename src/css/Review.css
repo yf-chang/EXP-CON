@@ -1,0 +1,36 @@
+.review-container {
+    width:100%;
+    position:relative;
+    color: white;
+}
+
+.review-title {
+    display: inline-block;
+}
+
+.review-grid {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.rating {
+    margin-bottom: 20px;
+
+}
+
+.review-item {
+    margin: 0px 80px;
+}
+
+.review-item h4 {
+    margin: 50px, 0px;
+}
+
+.review-item p {
+    font-size: 20px;
+    flex-wrap: wrap;
+    max-width: 150px;
+    margin:0;
+}
