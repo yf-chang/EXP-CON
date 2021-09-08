@@ -4,13 +4,15 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    z-index: 50;
+    position:relative;
 }
 
 .menu-bars {
     margin-left: 2rem;
     font-size: 2rem;
-    background: none;
     color: white;
+    background-color: transparent;
 }
 
 .menu-close {
@@ -31,7 +33,7 @@
 
 .nav-menu {
     background-color: white;
-    width: 250px;
+    width: 400px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -40,13 +42,18 @@
     left: -100%;
     transition: 850ms;
     z-index:100;
+    clip-path: circle(300px at 20% 5%);
+    -webkit-clip-path: circle(300px at 20% 5%);
 }
+
 
 .nav-menu.active {
     background-color: white;
     left: 0;
-    transition: 350ms;
+    transition: 850ms;
     z-index:100;
+    clip-path: circle(300px at 20% 5%);
+    -webkit-clip-path: circle(300px at 20% 5%);
 }
 
 .nav-text {
@@ -57,6 +64,7 @@
     list-style: none;
     height: 60px;
     background: white;
+    
   }
   
 .nav-text a {
@@ -95,10 +103,12 @@
     justify-content: start;
     align-items: center;
     padding: 6px 0px 6px 30px;
+    background-color: transparent;
 }
 
 .logo-text {
     text-decoration: none;
     color: white;
     font-size: 46px;
+    background-color: transparent;
 }

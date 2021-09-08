@@ -8,11 +8,9 @@ const Menu = () => {
     const showSidebar = () => setSidebar(!sidebar);
     return (
         <>
-            <div>
-                <Link to='#' className = 'menu-bars'>
-                    <FaBars onClick={showSidebar}/>
-                </Link>
-            </div>
+            <Link to='#' className = 'menu-bars'>
+                <FaBars onClick={showSidebar}/>
+            </Link>
             <nav className = {sidebar ? 'nav-menu active' : 'nav-menu'}>
                 <ul className = 'nav-menu-items' onClick={showSidebar}>
                     <li className = 'navbar-toggle'>

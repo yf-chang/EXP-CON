@@ -1,7 +1,11 @@
 .review-container {
     width:100%;
     position:relative;
+    top:20%;
     color: white;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
 }
 
 .review-title {
