@@ -9,3 +9,23 @@
     color: white;
     height: 500px;
 }
+
+.btn-container1{
+    position: absolute;
+    top: 0;
+    right:0;
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    padding:20px 20px;
+    z-index: 50;
+}
+
+.btn-container2 {
+    position: relative;
+    height: 100px;
+    width: 25%;
+    top:20%;
+    left:50px;
+}

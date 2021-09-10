@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Yellow from '../components/Yellow';
 import Review from '../components/Review';
 import RED from '../components/RED';
+import Perks from '../components/Perks';
 import '../css/App.css';
 
 
@@ -13,6 +14,7 @@ const HomePage = () => {
                 <Hero/>
                 <RED/>
                 <Yellow/>
+                <Perks/>
                 <Review/>
             </main>
         </div>

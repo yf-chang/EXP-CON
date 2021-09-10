@@ -1,11 +1,17 @@
 import React from 'react';
 import { FaStar, FaStarHalf } from "react-icons/fa";
-import '../css/Review.css'
+import '../css/Review.css';
+import Navbar from './Navbar';
+import HoverButton from './HoverButton';
 
 
 const Review = () => {
     return (
-        <div className = 'review-container'>
+        <div className = 'review-container'> 
+            <Navbar/>
+            <div className = 'btn-container-1'>
+                <HoverButton text = 'TRY IT NOW' link = '/pricing' color = 'lightblue'/>
+            </div>
             <div className = 'review-title'>
                 <h1>REVIEWS</h1>
             </div>

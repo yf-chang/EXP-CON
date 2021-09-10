@@ -28,8 +28,6 @@ const RED = () => {
                     <Speaker/>
                 </div> 
             </div>
-            
-            
         </div>
     )
 }

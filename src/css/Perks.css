@@ -1,0 +1,87 @@
+.perk-container {
+    width: 100%;
+    position:relative;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.perk-btn {
+    position: absolute;
+    top: 0;
+    right:0;
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    padding:20px 20px;
+    z-index: 50;
+}
+
+.perk-content-container {
+    top:0;
+    width: 100%;
+    height:420px;
+    display: inline-block;
+}
+
+
+h1 {
+    color:white;
+    margin: 2rem 3rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.description {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 0;
+}
+
+.background-1 {
+    background:rgb(235, 100, 66);
+}
+
+.background-2 {
+    background:rgb(240, 165, 52);
+}
+
+.background-3 {
+    background:rgb(66, 235, 235);
+}
+
+.grid-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line {
+    width: 80px;
+    height:3px;
+}
+
+
+.grid-item-1 {
+    width:200px;
+    
+    color: rgb(235, 100, 66);
+    min-height: 500px;
+}
+
+.grid-item-2 {
+    width:200px;
+    
+    color: rgb(240, 165, 52);
+    min-height: 500px;
+}
+
+.grid-item-3 {
+    width:200px;
+    color: rgb(66, 235, 235);
+    min-height: 500px;
+}
