@@ -120,3 +120,7 @@ form input[type="radio"]{
 a {
     color:rgba(0, 132, 255, 0.589);
 }
+
+.pay-btn {
+    margin:3rem;
+}

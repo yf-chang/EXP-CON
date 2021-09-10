@@ -122,7 +122,7 @@ const Payment = () => {
                         <p>By continuing, I acknowledge that I've read and agree to the <a> Terms of Service </a> & <a> Privacy Policy </a>.</p>
                     </div>
 
-                    <div>
+                    <div className = 'pay-btn'>
                         <LiquidButton type = 'submit' text = 'DOWNLOAD' link = '#'/>
                     </div>
                 </form>
