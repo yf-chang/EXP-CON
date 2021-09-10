@@ -1,0 +1,24 @@
+.getnow-container {
+    width: 100%;
+    position:relative;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.getnow-content-container {
+    top:0;
+    width: 100%;
+    height:420px;
+    display: inline-block
+}
+
+.red-title {
+    color: tomato;
+}
+
+.getnow-btn {
+    position: relative;
+    width: 25%;
+    margin-left:auto;
+}

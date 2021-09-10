@@ -9,12 +9,16 @@ import AboutPage from './pages/AboutPage';
 import PricingPage from './pages/PricingPage';
 import Navbar from './components/Navbar';
 import PaymentPage from './pages/PaymentPage';
+import Footer from './components/Footer';
 
 function App() {
 
   return (
-    <>
+    <div className="page-container">
+      
       <Router>
+        
+        <div className="content-wrap">
         <Navbar/>
         <Switch>
 
@@ -35,8 +39,11 @@ function App() {
           </Route>
 
         </Switch>
+        </div>
+        <Footer/>
       </Router>
-    </>
+      
+      </div>
   );
 }
 

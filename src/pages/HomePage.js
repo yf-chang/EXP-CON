@@ -5,6 +5,7 @@ import Review from '../components/Review';
 import RED from '../components/RED';
 import Perks from '../components/Perks';
 import '../css/App.css';
+import GetNow from '../components/GetNow';
 
 
 const HomePage = () => {
@@ -16,6 +17,7 @@ const HomePage = () => {
                 <Yellow/>
                 <Perks/>
                 <Review/>
+                <GetNow/>
             </main>
         </div>
     )
