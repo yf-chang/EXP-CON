@@ -1,5 +1,5 @@
-/* Button */
-.container {
+/* Liquid Button */
+.liquid-container {
     background: transparent;
     position:absolute;
     justify-content: center;
@@ -10,9 +10,10 @@
     background:transparent;
     justify-content: center;
     align-items: center;
+    position:relative;
   }
   
-  .btn {
+  .liquid-button {
     outline:0;
     border:none;
     cursor: pointer;
@@ -23,7 +24,6 @@
     letter-spacing: 4px;
     overflow: hidden;
     position: relative; 
-    padding: 2em 3em;
     margin: 4em;
     text-transform: uppercase;
     text-decoration: none;
@@ -34,10 +34,12 @@
     z-index: 20;
     justify-content: center;
     align-items: center;
+    height:50px;
+    width:170px;
   }
   
   
-  .btn::before {
+  .liquid-button::before {
     content: "";
     position: absolute;
     background: transparent;
@@ -56,7 +58,7 @@
     z-index: -1;
   }
   
-  .btn-::after {
+  .liquid-button::after {
     content: "";
     position: absolute;
     border-radius: 120px;
@@ -69,11 +71,11 @@
    
   }
   
-  .btn:hover {
+  .liquid-button:hover {
     background: rgba(255, 255, 255, 0.8);
   }
   
-  .btn:focus {
+  .liquid-button:focus {
     background: rgba(255, 255, 255, 0.8);
   }
   

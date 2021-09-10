@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
-import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs';
 import '../css/Hero.css';
-import Button from './Button';
+import LiquidButton from './LiquidButton';
 
 const Hero = () => {
     const [slides, setSlides] = useState(['https://images.unsplash.com/photo-1502872364588-894d7d6ddfab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80',
@@ -36,7 +35,7 @@ const Hero = () => {
                 <h1 className = 'title'>INTERACTIVE CONCERT EXPERIENCE</h1>
                 <p className = 'text'>Experience your favourite artists like never before and from the comfort of your own home</p>
                 <div className = 'btn-container'>
-                    <Button text='Try It Now' link = '/pricing'/>
+                    <LiquidButton text='Try It Now' link = '/pricing'/>
                 </div>
             </div>
         </div>

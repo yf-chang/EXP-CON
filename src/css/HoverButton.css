@@ -1,0 +1,58 @@
+.hover-container {
+    background: transparent;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+}
+
+.hover-link {
+    background:transparent;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+  }
+
+.hover-button {
+    outline:0;
+    border:none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50px;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 4px;
+    overflow: hidden;
+    position: relative; 
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width:170px;
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 100px;
+    background-color: white;
+    background-clip:content-box;
+}
+
+.hover-button::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #0596f7b6, transparent);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+}
+.hover-button:hover::before {
+    --size: 400px;
+}

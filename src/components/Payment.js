@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Payment.css';
-import Button from '../components/Button';
+import LiquidButton from '../components/LiquidButton';
 
 const Payment = () => {
     return (
@@ -123,7 +123,7 @@ const Payment = () => {
                     </div>
 
                     <div>
-                        <Button type = 'submit' text = 'DOWNLOAD' link = '#'/>
+                        <LiquidButton type = 'submit' text = 'DOWNLOAD' link = '#'/>
                     </div>
                 </form>
 

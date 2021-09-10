@@ -1,13 +1,13 @@
 import React from 'react';
 import '../css/Perk.css';
-import Button from './Button';
+import LiquidButton from './LiquidButton';
 
 const Perk = () => {
     return (
         <div className = 'perk-container'>
             <h1>Front Row Seat</h1>
             <p>Experience concerts up close and personal.</p>
-            <Button text = 'See Demo' link = '#'/>
+            <LiquidButton text = 'See Demo' link = '#'/>
         </div>
     )
 }

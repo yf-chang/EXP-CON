@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../components/Button';
+import LiquidButton from '../components/LiquidButton';
 import '../css/Perk.css';
 
 const PerksPage = () => {
@@ -7,7 +7,7 @@ const PerksPage = () => {
         <div className = 'perk-container'>
             <h1>Front Row Seat</h1>
             <p>Experience concerts up close and personal.</p>
-            <Button text = 'See Demo' link = '#'/>
+            <LiquidButton text = 'See Demo' link = '#'/>
         </div>
     )
 }
