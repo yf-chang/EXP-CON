@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import PerksPage from './pages/PerksPage';
 import PricingPage from './pages/PricingPage';
 import Navbar from './components/Navbar';
 import PaymentPage from './pages/PaymentPage';
@@ -25,10 +24,6 @@ function App() {
 
           <Route exact path="/about">
             <AboutPage/>
-          </Route>
-
-          <Route exact path="/perks">
-            <PerksPage/>
           </Route>
 
           <Route exact path="/pricing">
